@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/Rubecula/VS-Code"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "andreasbackx",
     "engines": {
         "vscode": "^1.22.0"
