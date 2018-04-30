@@ -5,6 +5,8 @@ cache:
   yarn: true
   directories:
     - node_modules
+install:
+  - yarn global add vsce
 script:
   - |
     match=0
@@ -16,9 +18,8 @@ script:
     done
     if [[ $match = 0 ]]; then
       echo "'package.json' remained unchanged, not publishing a new version."
-    else;
+    else
       echo "'package.json' was changed, publishing a new version..."
-      yarn global add vsce
       yarn template
       vsce publish -p $PERSONAL_ACCESS_TOKEN
     fi
