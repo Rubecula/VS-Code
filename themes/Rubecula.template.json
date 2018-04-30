@@ -650,7 +650,7 @@
         // Specifies the foreground color of the gutter blame annotations
         "gitlens.gutterForegroundColor": "foreground",
         // Specifies the foreground color of an uncommitted line in the gutter blame annotations
-        "gitlens.gutterUncommittedForegroundColor": "untested",
+        "gitlens.gutterUncommittedForegroundColor": "green",
         // Specifies the background color of the trailing blame annotation
         "gitlens.trailingLineBackgroundColor": "untested",
         // Specifies the foreground color of the trailing blame annotation

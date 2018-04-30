@@ -4,6 +4,8 @@ _Hyperminimal theme based on [AmCoder Bright](https://github.com/auiWorks/amCode
 
 This theme is being worked on while using VS Code so not everything might be added just yet. Please make an issue if you see anything out of the ordinary.
 
+![Screenshot](img/screenshot.png)
+
 ## Support
 
 ### Summary
@@ -27,8 +29,6 @@ The following settings are untested and will therefore show a red color:
 
 
 ```javascript
-// Specifies the foreground color of an uncommitted line in the gutter blame annotations
-"gitlens.gutterUncommittedForegroundColor": "untested",
 // Specifies the background color of the trailing blame annotation
 "gitlens.trailingLineBackgroundColor": "untested",
 // Specifies the foreground color of the trailing blame annotation
