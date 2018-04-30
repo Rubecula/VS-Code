@@ -1,6 +1,6 @@
 # Rubecula
 
-_Hyperminimal theme based on AmCoder Bright._
+_Hyperminimal theme based on [AmCoder Bright](https://github.com/auiWorks/amCoder)._
 
 This theme is being worked on while using VS Code so not everything might be added just yet. Please make an issue if you see anything out of the ordinary.
 
@@ -21,6 +21,8 @@ Still has some unspecified settings for which VS Code sets a fallback value.
 
 ### GitLens
 
+_Incomplete_
+
 The following settings are untested and will therefore show a red color:
 
 
@@ -38,6 +40,8 @@ The following settings are untested and will therefore show a red color:
 ## Contributing
 
 ### Issues
+
+For reporting bugs, see [`.github/ISSUE_TEMPLATE.md`](.github/ISSUE_TEMPLATE.md). For other requests, feel free to make an issue.
 
 ### Building
 

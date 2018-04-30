@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "node"
+cache:
+  yarn: true
+  directories:
+    - node_modules
+install:
+- yarn global add vsce
+before_script:
+- yarn template
+script:
+- vsce publish -p $PERSONAL_ACCESS_TOKEN
+notifications:
+  email: false
