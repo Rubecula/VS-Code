@@ -1,0 +1,24 @@
+{
+    "name": "rubecula",
+    "displayName": "Rubecula",
+    "description": "Hyperminimal theme based on AmCoder Bright.",
+    "version": "1.0.0",
+    "publisher": "andreasbackx",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rubecula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rubecula.json"
+            }
+        ]
+    },
+    "scripts": {
+        "template": "node template.js"
+    },
+    "license": "MIT"
+}

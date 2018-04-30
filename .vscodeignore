@@ -1,0 +1,6 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+*.template.json
+.git/
+template.js

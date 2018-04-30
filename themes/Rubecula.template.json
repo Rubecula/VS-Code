@@ -1,0 +1,1069 @@
+{
+    "type": "dark",
+    "colors": {
+        //
+        // VS Code Color Customisations
+        //
+
+        //
+        // Contrast Colors
+        //
+        // An extra border around active elements to separate them from others for greater contrast.
+        // "contrastActiveBorder": "inherited",
+        // An extra border around elements to separate them from others for greater contrast.
+        // "contrastBorder": "inherited",
+
+        //
+        // Base Colors
+        //
+        // Overall border color for focused elements. This color is only used if not overridden by a component.
+        "focusBorder": "border",
+        // Overall foreground color. This color is only used if not overridden by a component.
+        "foreground": "foreground",
+        // Shadow color of widgets such as Find/Replace inside the editor.
+        // "widget.shadow": "inherited",
+        // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
+        "selection.background": "yellow",
+        // Foreground color for description text providing additional information, for example for a label.
+        // "descriptionForeground": "inherited",
+        // Overall foreground color for error messages (this color is only used if not overridden by a component).
+        // "errorForeground": "inherited",
+
+        //
+        // Text Colors
+        //
+        // Background color for block quotes in text.
+        "textBlockQuote.background": "background",
+        // Border color for block quotes in text.
+        "textBlockQuote.border": "border",
+        // Background color for code blocks in text.
+        "textCodeBlock.background": "highlightBackground",
+        // Foreground color for active links in text.
+        "textLink.activeForeground": "yellow",
+        // Foreground color for links in text.
+        "textLink.foreground": "cyan",
+        // Foreground color for preformatted text segments.
+        "textPreformat.foreground": "foreground",
+        // Color for text separators.
+        "textSeparator.foreground": "foreground",
+
+        //
+        // Button Control
+        //
+        // Button background color.
+        "button.background": "background",
+        // Button foreground color.
+        "button.foreground": "foreground",
+        // Button background color when hovering.
+        "button.hoverBackground": "darkBackground",
+
+        //
+        // Dropdown Control
+        //
+        // Dropdown background.
+        "dropdown.background": "background",
+        // Dropdown list background.
+        "dropdown.listBackground": "background",
+        // Dropdown border.
+        "dropdown.border": "border",
+        // Dropdown foreground.
+        "dropdown.foreground": "foreground",
+
+        //
+        // Input Control
+        //
+        // Input box background.
+        "input.background": "background",
+        // Input box border.
+        "input.border": "border",
+        // Input box foreground.
+        "input.foreground": "foreground",
+        // Input box foreground color for placeholder text.
+        "input.placeholderForeground": "inactiveForeground",
+        // Border color of activated options in input fields.
+        // "inputOption.activeBorder": "inherited",
+        // Input validation background color for error severity.
+        "inputValidation.errorBackground": "background",
+        // Input validation border color for error severity.
+        "inputValidation.errorBorder": "pink",
+        // Input validation background color for information severity.
+        "inputValidation.infoBackground": "background",
+        // Input validation border color for information severity.
+        "inputValidation.infoBorder": "inactiveForeground",
+        // Input validation background color for information warning.
+        "inputValidation.warningBackground": "background",
+        // Input validation border color for warning severity.
+        "inputValidation.warningBorder": "orange",
+
+        //
+        // Scroll Bar Control
+        //
+        // Scroll Bar shadow to indicate that the view is scrolled.
+        // "scrollbar.shadow": "inherited",
+        // Slider background color when active.
+        "scrollbarSlider.activeBackground": "foreground38",
+        // Slider background color.
+        "scrollbarSlider.background": "foreground15",
+        // Slider background color when hovering.
+        "scrollbarSlider.hoverBackground": "foreground1c",
+
+        //
+        // Badge
+        //
+        // Badge foreground color.
+        "badge.foreground": "foreground",
+        // Badge background color.
+        "badge.background": "highlightBackground",
+
+        //
+        // Progress Bar
+        //
+        // Background color of the progress bar shown for long running operations.
+        "progressBar.background": "highlightBackground",
+
+        //
+        // Lists and Trees
+        //
+        // List/Tree background color for the selected item when the list/tree is active.
+        "list.activeSelectionBackground": "yellow30",
+        // List/Tree foreground color for the selected item when the list/tree is active.
+        "list.activeSelectionForeground": "brightForeground",
+        // List/Tree drag and drop background when moving items around using the mouse.
+        "list.dropBackground": "yellow30",
+        // List/Tree background color for the focused item when the list/tree is active.
+        "list.focusBackground": "yellow30",
+        // List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+        "list.focusForeground": "brightForeground",
+        // List/Tree foreground color of the match highlights when searching inside the list/tree.
+        "list.highlightForeground": "cyan",
+        // List/Tree background when hovering over items using the mouse.
+        "list.hoverBackground": "highlightBackground80",
+        // List/Tree foreground when hovering over items using the mouse.
+        // "list.hoverForeground": "inherited",
+        // List/Tree background color for the selected item when the list/tree is inactive.
+        "list.inactiveSelectionBackground": "yellow20",
+        // List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+        // "list.inactiveSelectionForeground": "inherited",
+        // List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
+        // "list.inactiveFocusBackground": "inherited",
+        // List/Tree foreground color for invalid items, for example an unresolved root in explorer.
+        "list.invalidItemForeground": "pink",
+
+        //
+        // Activity Bar
+        //
+        // Activity Bar background color.
+        // "activityBar.background": "inherited",
+        // Drag and drop feedback color for the Activity Bar items.
+        // "activityBar.dropBackground": "inherited",
+        // Activity bar foreground color (for example used for the icons).
+        // "activityBar.foreground": "inherited",
+        // Activity Bar border color with the Side Bar.
+        // "activityBar.border": "inherited",
+        // Activity notification badge background color.
+        // "activityBarBadge.background": "inherited",
+        // Activity notification badge foreground color.
+        // "activityBarBadge.foreground": "inherited",
+
+        //
+        // Side Bar
+        //
+        // Side Bar background color.
+        "sideBar.background": "darkBackground",
+        // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+        // "sideBar.foreground": "inherited",
+        // Side Bar border color on the side separating the editor.
+        // "sideBar.border": "inherited",
+        // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and search.
+        // "sideBar.dropBackground": "inherited",
+        // Side Bar title foreground color.
+        // "sideBarTitle.foreground": "inherited",
+        // Side Bar section header background color.
+        "sideBarSectionHeader.background": "lightBackground",
+        // Side Bar section header foreground color.
+        // "sideBarSectionHeader.foreground": "inherited",
+
+        //
+        // Editor Groups & Tabs
+        //
+        // Background color of an editor group. The background color shows up when dragging editor groups around.
+        "editorGroup.background": "background",
+        // Color to separate multiple editor groups from each other.
+        // "editorGroup.border": "inherited",
+        // Background color when dragging editors around.
+        // "editorGroup.dropBackground": "inherited",
+
+        // Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": false).
+        // "editorGroupHeader.noTabsBackground": "inherited",
+        // Background color of the Tabs container.
+        "editorGroupHeader.tabsBackground": "lightBackground",
+        // Border color of the editor group title header when tabs are enabled.
+        // "editorGroupHeader.tabsBorder": "inherited",
+
+        // Active Tab background color.
+        "tab.activeBackground": "background",
+        // Active Tab foreground color in an active group.
+        // "tab.activeForeground": "inherited",
+        // Border to separate Tabs from each other.
+        // "tab.border": "inherited",
+        // Bottom border for the active tab.
+        // "tab.activeBorder": "inherited",
+        // Bottom border for the active tab in an inactive editor group.
+        // "tab.unfocusedActiveBorder": "inherited",
+        // Inactive Tab background color.
+        "tab.inactiveBackground": "lightBackground",
+        // Inactive Tab foreground color in an active group.
+        "tab.inactiveForeground": "inactiveForeground",
+        // Active tab foreground color in an inactive editor group.
+        // "tab.unfocusedActiveForeground": "inherited",
+        // Inactive tab foreground color in an inactive editor group.
+        // "tab.unfocusedInactiveForeground": "inherited",
+        // Tab background color when hovering
+        "tab.hoverBackground": "background",
+        // Tab background color in an unfocused group when hovering
+        // "tab.unfocusedHoverBackground": "inherited",
+        // Border to highlight tabs when hovering
+        // "tab.hoverBorder": "inherited",
+        // Border to highlight tabs in an unfocused group when hovering
+        // "tab.unfocusedHoverBorder": "inherited",
+
+        //
+        // Editor Colors
+        //
+        // Editor background color.
+        "editor.background": "background",
+        // Editor default foreground color.
+        "editor.foreground": "foreground",
+        // Color of editor line numbers.
+        "editorLineNumber.foreground": "inactiveForeground",
+        // Color of the active editor line number.
+        // "editorLineNumber.activeForeground": "inherited",
+        // The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
+        // "editorCursor.background": "inherited",
+        // Color of the editor cursor.
+        // "editorCursor.foreground": "inherited",
+
+        // Color of the editor selection.
+        "editor.selectionBackground": "yellow40",
+        // Color of the selected text for high contrast.
+        "editor.selectionForeground": "foreground",
+        // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+        "editor.inactiveSelectionBackground": "highlightBackground80",
+        // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+        "editor.selectionHighlightBackground": "transparent",
+        // Border color for regions with the same content as the selection.
+        "editor.selectionHighlightBorder": "yellow",
+
+        // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque to not hide underlying decorations.
+        // "editor.wordHighlightBackground": "inherited",
+        // Border color of a symbol during read-access, for example when reading a variable.
+        // "editor.wordHighlightBorder": "inherited",
+        // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque to not hide underlying decorations.
+        // "editor.wordHighlightStrongBackground": "inherited",
+        // Border color of a symbol during write-access, for example when writing to a variable.
+        // "editor.wordHighlightStrongBorder": "inherited",
+
+        //
+        // Color of the current search match.
+        "editor.findMatchBackground": "yellow40",
+        // Color of the other search matches. The color must not be opaque to not hide underlying decorations.
+        "editor.findMatchHighlightBackground": "yellow40",
+        // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+        // "editor.findRangeHighlightBackground": "inherited",
+        // Border color of the current search match.
+        // "editor.findMatchBorder": "inherited",
+        // Border color of the other search matches.
+        // "editor.findMatchHighlightBorder": "inherited",
+        // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
+        // "editor.findRangeHighlightBorder": "inherited",
+
+        // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations.
+        "editor.hoverHighlightBackground": "transparent",
+
+        // Background color for the highlight of line at the cursor position.
+        "editor.lineHighlightBackground": "highlightBackground",
+        // Background color for the border around the line at the cursor position.
+        "editor.lineHighlightBorder": "transparent",
+
+        // Color of active links.
+        "editorLink.activeForeground": "cyan",
+
+        // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
+        // "editor.rangeHighlightBackground": "inherited",
+        // Background color of the border around highlighted ranges.
+        // "editor.rangeHighlightBorder": "inherited",
+
+        // Color of whitespace characters in the editor.
+        // "editorWhitespace.foreground": "inherited",
+
+        // Color of the editor indentation guides.
+        // "editorIndentGuide.background": "inherited",
+
+        // Color of the editor rulers.
+        // "editorRuler.foreground": "inherited",
+
+        // Foreground color of an editor CodeLens.
+        // "editorCodeLens.foreground": "inherited",
+
+        // Background color behind matching brackets.
+        // "editorBracketMatch.background": "inherited",
+        // Color for matching brackets boxes.
+        // "editorBracketMatch.border": "inherited",
+
+        // Color of the overview ruler border.
+        "editorOverviewRuler.border": "border",
+        // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
+        // "editorOverviewRuler.findMatchForeground": "inherited",
+        // Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
+        // "editorOverviewRuler.rangeHighlightForeground": "inherited",
+        // Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
+        "editorOverviewRuler.selectionHighlightForeground": "yellow80",
+        // Overview ruler marker color for symbol highlights. The color must not be opaque to not hide underlying decorations.
+        "editorOverviewRuler.wordHighlightForeground": "yellow80",
+        // Overview ruler marker color for write-access symbol highlights. The color must not be opaque to not hide underlying decorations.
+        "editorOverviewRuler.wordHighlightStrongForeground": "yellow80",
+        // Overview ruler marker color for modified content.
+        "editorOverviewRuler.modifiedForeground": "orange80",
+        // Overview ruler marker color for added content.
+        "editorOverviewRuler.addedForeground": "green80",
+        // Overview ruler marker color for deleted content.
+        "editorOverviewRuler.deletedForeground": "pink80",
+        // Overview ruler marker color for errors.
+        "editorOverviewRuler.errorForeground": "pink80",
+        // Overview ruler marker color for warnings.
+        "editorOverviewRuler.warningForeground": "orange80",
+        // Overview ruler marker color for infos.
+        "editorOverviewRuler.infoForeground": "cyan80",
+
+        // Foreground color of error squiggles in the editor.
+        // "editorError.foreground": "inherited",
+        // Border color of error squiggles in the editor.
+        "editorError.border": "pink",
+        // Foreground color of warning squiggles in the editor.
+        // "editorWarning.foreground": "inherited",
+        // Border color of warning squiggles in the editor.
+        "editorWarning.border": "orange",
+        // Foreground color of info squiggles in the editor.
+        // "editorInfo.foreground": "inherited",
+        // Border color of info squiggles in the editor.
+        "editorInfo.border": "foreground",
+        // Foreground color of hints in the editor.
+        // "editorHint.foreground": "inherited",
+        // Border color of hints in the editor.
+        "editorHint.border": "cyan",
+
+        // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+        "editorGutter.background": "background",
+        // Editor gutter background color for lines that are modified.
+        "editorGutter.modifiedBackground": "orange80",
+        // Editor gutter background color for lines that are added.
+        "editorGutter.addedBackground": "green80",
+        // Editor gutter background color for lines that are deleted.
+        "editorGutter.deletedBackground": "pink80",
+
+        //
+        // Diff Editor Colors
+        //
+        // Background color for text that got inserted. The color must not be opaque to not hide underlying decorations.
+        // "diffEditor.insertedTextBackground": "inherited",
+        // Outline color for the text that got inserted.
+        // "diffEditor.insertedTextBorder": "inherited",
+        // Background color for text that got removed. The color must not be opaque to not hide underlying decorations.
+        // "diffEditor.removedTextBackground": "inherited",
+        // Outline color for text that got removed.
+        // "diffEditor.removedTextBorder": "inherited",
+
+        //
+        // Editor Widget Colors
+        //
+        // Background color of editor widgets, such as Find/Replace.
+        "editorWidget.background": "background",
+        // Border color of the editor widget unless the widget does not contain a border or defines its own border color.
+        "editorWidget.border": "border",
+        // Background color of the suggestion widget.
+        // "editorSuggestWidget.background": "inherited",
+        // Border color of the suggestion widget.
+        // "editorSuggestWidget.border": "inherited",
+        // Foreground color of the suggestion widget.
+        "editorSuggestWidget.foreground": "foreground",
+        // Color of the match highlights in the suggestion widget.
+        "editorSuggestWidget.highlightForeground": "cyan",
+        // Background color of the selected entry in the suggestion widget.
+        "editorSuggestWidget.selectedBackground": "yellow30",
+        // Background color of the editor hover.
+        // "editorHoverWidget.background": "inherited",
+        // Border color of the editor hover.
+        // "editorHoverWidget.border": "inherited",
+
+        // Exception widget background color.
+        // "debugExceptionWidget.background": "inherited",
+        // Exception widget border color.
+        // "debugExceptionWidget.border": "inherited",
+
+        // Editor marker navigation widget background.
+        // "editorMarkerNavigation.background": "inherited",
+        // Editor marker navigation widget error color.
+        // "editorMarkerNavigationError.background": "inherited",
+        // Editor marker navigation widget warning color.
+        // "editorMarkerNavigationWarning.background": "inherited",
+        // Editor marker navigation widget info color.
+        // "editorMarkerNavigationInfo.background": "inherited",
+
+        //
+        // Peek View Colors
+        //
+        // Color of the peek view borders and arrow.
+        "peekView.border": "border",
+        // Background color of the peek view editor.
+        "peekViewEditor.background": "background",
+        // Background color of the gutter in the peek view editor.
+        "peekViewEditorGutter.background": "background",
+        // Match highlight color in the peek view editor.
+        "peekViewEditor.matchHighlightBackground": "highlightBackground80",
+        // Background color of the peek view result list.
+        "peekViewResult.background": "background",
+        // Foreground color for file nodes in the peek view result list.
+        // "peekViewResult.fileForeground": "inherited",
+        // Foreground color for line nodes in the peek view result list.
+        "peekViewResult.lineForeground": "foreground",
+        // Match highlight color in the peek view result list.
+        "peekViewResult.matchHighlightBackground": "yellow40",
+        // Background color of the selected entry in the peek view result list.
+        "peekViewResult.selectionBackground": "yellow40",
+        // Foreground color of the selected entry in the peek view result list.
+        "peekViewResult.selectionForeground": "brightForeground",
+        // Background color of the peek view title area.
+        "peekViewTitle.background": "background",
+        // Color of the peek view title info.
+        "peekViewTitleDescription.foreground": "inactiveForeground",
+        // Color of the peek view title.
+        "peekViewTitleLabel.foreground": "foreground",
+
+        //
+        // Merge Conflicts
+        //
+        // Current header background in inline merge conflicts. The color must not be opaque to not hide underlying decorations.
+        "merge.currentHeaderBackground": "green80",
+        // Current content background in inline merge conflicts. The color must not be opaque to not hide underlying decorations.
+        "merge.currentContentBackground": "green40",
+        // Incoming header background in inline merge conflicts. The color must not be opaque to not hide underlying decorations.
+        "merge.incomingHeaderBackground": "cyan80",
+        // Incoming content background in inline merge conflicts. The color must not be opaque to not hide underlying decorations.
+        "merge.incomingContentBackground": "cyan40",
+        // Border color on headers and the splitter in inline merge conflicts.
+        // "merge.border": "inherited",
+        // Common ancestor content background in inline merge-conflicts. The color must not be opaque to not hide underlying decorations.
+        // "merge.commonContentBackground": "inherited",
+        // Common ancestor header background in inline merge-conflicts. The color must not be opaque to not hide underlying decorations.
+        // "merge.commonHeaderBackground": "inherited",
+        // Current overview ruler foreground for inline merge conflicts.
+        // "editorOverviewRuler.currentContentForeground": "inherited",
+        // Incoming overview ruler foreground for inline merge conflicts.
+        // "editorOverviewRuler.incomingContentForeground": "inherited",
+        // Common ancestor overview ruler foreground for inline merge conflicts.
+        // "editorOverviewRuler.commonContentForeground": "inherited",
+
+        //
+        // Panel Colors
+        //
+        // Panel background color.
+        // "panel.background": "inherited",
+        // Panel border color to separate the panel from the editor.
+        // "panel.border": "inherited",
+        // Drag and drop feedback color for the panel title items. The color should have transparency so that the panel entries can still shine through.
+        // "panel.dropBackground": "inherited",
+        // Border color for the active panel title.
+        // "panelTitle.activeBorder": "inherited",
+        // Title color for the active panel.
+        // "panelTitle.activeForeground": "inherited",
+        // Title color for the inactive panel.
+        // "panelTitle.inactiveForeground": "inherited",
+
+        //
+        // Status Bar Colors
+        //
+        // Standard Status Bar background color.
+        "statusBar.background": "lightBackground",
+        // Status Bar foreground color.
+        // "statusBar.foreground": "inherited",
+        // Status Bar border color separating the Status Bar and editor.
+        "statusBar.border": "lightBackground",
+        // Status Bar background color when a program is being debugged.
+        // "statusBar.debuggingBackground": "inherited",
+        // Status Bar foreground color when a program is being debugged.
+        // "statusBar.debuggingForeground": "inherited",
+        // Status Bar border color separating the Status Bar and editor when a program is being debugged.
+        // "statusBar.debuggingBorder": "inherited",
+        // Status Bar foreground color when no folder is opened.
+        // "statusBar.noFolderForeground": "inherited",
+        // Status Bar background color when no folder is opened.
+        // "statusBar.noFolderBackground": "inherited",
+        // Status Bar border color separating the Status Bar and editor when no folder is opened.
+        // "statusBar.noFolderBorder": "inherited",
+        // Status Bar item background color when clicking.
+        "statusBarItem.activeBackground": "gray",
+        // Status Bar item background color when hovering.
+        "statusBarItem.hoverBackground": "highlightBackground",
+        // Status Bar prominent items background color. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
+        // "statusBarItem.prominentBackground": "inherited",
+        // Status Bar prominent items background color when hovering. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
+        // "statusBarItem.prominentHoverBackground": "inherited",
+
+        //
+        // Title Bar Colors (macOS)
+        //
+        // Title Bar background when the window is active.
+        // "titleBar.activeBackground": "inherited",
+        // Title Bar foreground when the window is active.
+        // "titleBar.activeForeground": "inherited",
+        // Title Bar background when the window is inactive.
+        // "titleBar.inactiveBackground": "inherited",
+        // Title Bar foreground when the window is inactive.
+        // "titleBar.inactiveForeground": "inherited",
+        // Title bar border color.
+        // "titleBar.border": "inherited",
+
+        //
+        // Notification Colors
+        //
+        // Notification Center border color.
+        // "notificationCenter.border": "inherited",
+        // Notification Center header foreground color.
+        // "notificationCenterHeader.foreground": "inherited",
+        // Notification Center header background color.
+        "notificationCenterHeader.background": "highlightBackground",
+        // Notification toast border color.
+        // "notificationToast.border": "inherited",
+        // Notification foreground color.
+        "notifications.foreground": "foreground",
+        // Notification background color.
+        "notifications.background": "lightBackground",
+        // Notification border color separating from other notifications in the Notification Center.
+        // "notifications.border": "inherited",
+        // Notification links foreground color.
+        // "notificationLink.foreground": "inherited",
+
+        //
+        // Extensions
+        //
+        // Extension view button foreground color (for example Install button).
+        // "extensionButton.prominentForeground": "inherited",
+        // Extension view button background color.
+        // "extensionButton.prominentBackground": "inherited",
+        // Extension view button background hover color.
+        // "extensionButton.prominentHoverBackground": "inherited",
+
+        //
+        // Quick Picker
+        //
+        // Quick picker (Quick Open) color for grouping borders.
+        // "pickerGroup.border": "inherited",
+        // Quick picker (Quick Open) color for grouping labels.
+        // "pickerGroup.foreground": "inherited",
+
+        //
+        // Integrated Terminal Colors
+        //
+        // The background of the Integrated Terminal's viewport.
+        "terminal.background": "darkBackground",
+        // The default foreground color of the Integrated Terminal.
+        "terminal.foreground": "foreground",
+        // 'Black' ANSI color in the terminal.
+        "terminal.ansiBlack": "background",
+        // 'Blue' ANSI color in the terminal.
+        "terminal.ansiBlue": "cyan",
+        // 'BrightBlack' ANSI color in the terminal.
+        "terminal.ansiBrightBlack": "background",
+        // 'BrightBlue' ANSI color in the terminal.
+        "terminal.ansiBrightBlue": "cyan",
+        // 'BrightCyan' ANSI color in the terminal.
+        "terminal.ansiBrightCyan": "cyan",
+        // 'BrightGreen' ANSI color in the terminal.
+        "terminal.ansiBrightGreen": "green",
+        // 'BrightMagenta' ANSI color in the terminal.
+        "terminal.ansiBrightMagenta": "purple",
+        // 'BrightRed' ANSI color in the terminal.
+        "terminal.ansiBrightRed": "pink",
+        // 'BrightWhite' ANSI color in the terminal.
+        "terminal.ansiBrightWhite": "brightForeground",
+        // 'BrightYellow' ANSI color in the terminal.
+        "terminal.ansiBrightYellow": "yellow",
+        // 'Cyan' ANSI color in the terminal.
+        "terminal.ansiCyan": "cyan",
+        // 'Green' ANSI color in the terminal.
+        "terminal.ansiGreen": "green",
+        // 'Magenta' ANSI color in the terminal.
+        "terminal.ansiMagenta": "purple",
+        // 'Red' ANSI color in the terminal.
+        "terminal.ansiRed": "pink",
+        // 'White' ANSI color in the terminal.
+        "terminal.ansiWhite": "brightForeground",
+        // 'Yellow' ANSI color in the terminal.
+        "terminal.ansiYellow": "yellow",
+        // The selection background color of the terminal.
+        "terminal.selectionBackground": "highlightBackground40",
+        // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+        "terminalCursor.background": "darkBackground",
+        // The foreground color of the terminal cursor.
+        "terminalCursor.foreground": "foreground",
+
+        //
+        // Debug
+        //
+        // Debug toolbar background color.
+        // "debugToolBar.background": "inherited",
+
+        //
+        // Welcome Page
+        //
+        // Background color for the buttons on the Welcome page.
+        // "welcomePage.buttonBackground": "inherited",
+        // Hover background color for the buttons on the Welcome page.
+        // "welcomePage.buttonHoverBackground": "inherited",
+        // Background color for the embedded editors on the Interactive Playground.
+        // "walkThrough.embeddedEditorBackground": "inherited",
+
+        //
+        // Git Colors
+        //
+        // Color for modified git resources. Used file labels and the SCM viewlet.
+        "gitDecoration.modifiedResourceForeground": "yellow",
+        // Color for deleted git resources. Used file labels and the SCM viewlet.
+        "gitDecoration.deletedResourceForeground": "pink",
+        // Color for untracked git resources. Used file labels and the SCM viewlet.
+        "gitDecoration.untrackedResourceForeground": "green",
+        // Color for ignored git resources. Used file labels and the SCM viewlet.
+        "gitDecoration.ignoredResourceForeground": "inactiveForeground",
+        // Color for conflicting git resources. Used file labels and the SCM viewlet.
+        "gitDecoration.conflictingResourceForeground": "purple",
+
+        //
+        // VS Code Extensions Customisations
+        //
+
+        //
+        // GitLens
+        //
+
+        // Specifies the background color of the gutter blame annotations
+        "gitlens.gutterBackgroundColor": "background",
+        // Specifies the foreground color of the gutter blame annotations
+        "gitlens.gutterForegroundColor": "foreground",
+        // Specifies the foreground color of an uncommitted line in the gutter blame annotations
+        "gitlens.gutterUncommittedForegroundColor": "untested",
+        // Specifies the background color of the trailing blame annotation
+        "gitlens.trailingLineBackgroundColor": "untested",
+        // Specifies the foreground color of the trailing blame annotation
+        "gitlens.trailingLineForegroundColor": "untested",
+        // Specifies the background color of the associated line highlights in blame annotations
+        "gitlens.lineHighlightBackgroundColor": "yellow30",
+        // Specifies the overview ruler color of the associated line highlights in blame annotations
+        "gitlens.lineHighlightOverviewRulerColor": "untested"
+    },
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "foreground",
+                "background": "background"
+            }
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "settings": {
+                "foreground": "purpleA0"
+            }
+        },
+        {
+            "scope": "entity.name.filename.find-in-files",
+            "settings": {
+                "foreground": "yellow"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "yellow"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "User-defined constant",
+            "scope": ["constant.character", "constant.other"],
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "settings": {
+                "foreground": "foreground"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "pink"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "foreground": "pink"
+            }
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "green"
+            }
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "green"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "green"
+            }
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "orange"
+            }
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "pink"
+            }
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "green"
+            }
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": {
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "settings": {
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Library class/type",
+            "scope": ["support.type", "support.class"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable",
+            "settings": {
+                "foreground": ""
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "background": "pink",
+                "foreground": "lightGray"
+            }
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "settings": {
+                "background": "purple",
+                "foreground": "lightGray"
+            }
+        },
+        {
+            "name": "JSON String",
+            "scope": "meta.structure.dictionary.json string.quoted.double.json",
+            "settings": {
+                "foreground": "yellow"
+            }
+        },
+        {
+            "name": "diff.header",
+            "scope": ["meta.diff", "meta.diff.header"],
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "pink"
+            }
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "green"
+            }
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "yellow"
+            }
+        },
+        {
+            "name": "Markup: raw inline",
+            "scope": "text.html.markdown markup.raw.inline",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Markup: italic",
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "yellow"
+            }
+        },
+        {
+            "name": "Markup: bold",
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "orange"
+            }
+        },
+        {
+            "name": "Markup: underline",
+            "scope": "markup.underline",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Markup: Quote",
+            "scope": "markup.quote",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Markup: Raw block",
+            "scope": "markup.raw.block",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Markup: table",
+            "scope": "markup.table",
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Markdown: plain",
+            "scope": "text.html.markdown",
+            "settings": {
+                "foreground": "lightGray"
+            }
+        },
+        {
+            "name": "Markdown: linebreak",
+            "scope": "text.html.markdown meta.dummy.line-break",
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Markdown: heading",
+            "scope": [
+                "markdown.heading",
+                "markup.heading | markup.heading entity.name",
+                "markup.heading.markdown punctuation.definition.heading.markdown"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "pink"
+            }
+        },
+        {
+            "name": "Markdown: Blockquote",
+            "scope": [
+                "markup.quote",
+                "punctuation.definition.blockquote.markdown"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Markdown: Link",
+            "scope": "string.other.link.title.markdown",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "cyan"
+            }
+        },
+        {
+            "name": "Markdown: List Items Punctuation",
+            "scope": "punctuation.definition.list_item.markdown",
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Markdown: Raw Block fenced",
+            "scope": "markup.raw.block.fenced.markdown",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Markdown: Fenced Bode Block",
+            "scope": [
+                "punctuation.definition.fenced.markdown",
+                "variable.language.fenced.markdown"
+            ],
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Markdown: Fenced Language",
+            "scope": "variable.language.fenced.markdown",
+            "settings": {
+                "foreground": "purple"
+            }
+        },
+        {
+            "name": "Markdown: Separator",
+            "scope": "meta.separator",
+            "settings": {
+                "background": "lightBackground",
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "scope": "token.info-token",
+            "settings": {
+                "foreground": "#6796e6"
+            }
+        },
+        {
+            "scope": "token.warn-token",
+            "settings": {
+                "foreground": "#cd9731"
+            }
+        },
+        {
+            "scope": "token.error-token",
+            "settings": {
+                "foreground": "#f44747"
+            }
+        },
+        {
+            "scope": "token.debug-token",
+            "settings": {
+                "foreground": "#b267e6"
+            }
+        },
+        {
+            "name": "Python docstrings",
+            "scope": ["string.quoted.docstring.multi"],
+            "settings": {
+                "foreground": "inactiveForeground"
+            }
+        },
+        {
+            "name": "Inherited classes",
+            "scope": ["entity.other.inherited-class"],
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Language specific variables",
+            "scope": ["variable.language"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "UPPERCASE constants",
+            "scope": ["constant.other.caps"],
+            "settings": {
+                "foreground": "lightGray",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "JSON Keys",
+            "scope": ["support.type.property-name.json"],
+            "settings": {
+                "fontStyle": ""
+            }
+        }
+    ]
+}
