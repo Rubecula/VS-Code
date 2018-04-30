@@ -1,22 +1,19 @@
 {
     "name": "rubecula",
-    "displayName": "Rubecula",
-    "description": "Hyperminimal theme based on AmCoder Bright.",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Rubecula/VS-Code"
-    },
     "version": "1.0.1",
     "publisher": "andreasbackx",
     "engines": {
         "vscode": "^1.22.0"
     },
+    "license": "MIT",
+    "displayName": "Rubecula",
+    "description": "Hyperminimal theme based on AmCoder Bright.",
     "categories": ["Themes"],
+    "keywords": ["monokai", "amcoder", "theme", "dark"],
     "galleryBanner": {
         "color": "#1C1C1C",
         "theme": "dark"
     },
-    "icon": "img/icon.png",
     "contributes": {
         "themes": [
             {
@@ -26,10 +23,14 @@
             }
         ]
     },
+    "markdown": "github",
+    "qna": "https://github.com/Rubecula/VS-Code/issues",
     "scripts": {
         "template": "node template.js"
     },
-    "license": "MIT",
-    "qna": "https://github.com/Rubecula/VS-Code/issues",
-    "markdown": "github"
+    "icon": "img/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rubecula/VS-Code"
+    }
 }

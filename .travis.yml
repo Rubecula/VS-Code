@@ -12,7 +12,7 @@ script:
     GREEN="\033[32;1m"
     RESET="\033[0m"
     match=0
-    for change in $(git diff --name-only "${TRAVIS_COMMIT_RANGE%%.*}"); do
+    for change in $(git diff --name-only HEAD~); do
       if [[ $change = "package.json" ]]; then
         match=1
         break
