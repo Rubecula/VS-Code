@@ -9,8 +9,8 @@ install:
   - yarn global add vsce
 script:
   - |
-    green="\033[5;32m"
-    reset="\033[0m"
+    GREEN="\033[32;1m"
+    RESET="\033[0m"
     match=0
     for change in $(git diff --name-only "${TRAVIS_COMMIT_RANGE%%.*}"); do
       if [[ $change = "package.json" ]]; then
@@ -19,9 +19,9 @@ script:
       fi
     done
     if [[ $match = 0 ]]; then
-      echo "${green}'package.json' remained unchanged, not publishing a new version.${reset}"
+      echo -e "${GREEN}'package.json' remained unchanged, not publishing a new version.${RESET}"
     else
-      echo "${green}'package.json' was changed, publishing a new version...${reset}"
+      echo -e "${GREEN}'package.json' was changed, publishing a new version...${RESET}"
       yarn template
       vsce publish -p $PERSONAL_ACCESS_TOKEN
     fi
