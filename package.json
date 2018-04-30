@@ -12,6 +12,11 @@
         "vscode": "^1.22.0"
     },
     "categories": ["Themes"],
+    "galleryBanner": {
+        "color": "#1C1C1C",
+        "theme": "dark"
+    },
+    "icon": "img/icon.png",
     "contributes": {
         "themes": [
             {
@@ -24,5 +29,7 @@
     "scripts": {
         "template": "node template.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "qna": "https://github.com/Rubecula/VS-Code/issues",
+    "markdown": "github"
 }
