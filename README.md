@@ -4,7 +4,7 @@ _Hyperminimal theme based on [AmCoder Bright](https://github.com/auiWorks/amCode
 
 This theme is being worked on while using VS Code so not everything might be added just yet. Please make an issue if you see anything out of the ordinary.
 
-![Screenshot](img/screenshot.png)
+[![Screenshot](img/screenshot.png)](https://raw.githubusercontent.com/Rubecula/VS-Code/master/img/screenshot.png "Go to screenshot")
 
 ## Support
 
