@@ -33,8 +33,6 @@ The following settings are untested and will therefore show a red color:
 "gitlens.trailingLineBackgroundColor": "untested",
 // Specifies the foreground color of the trailing blame annotation
 "gitlens.trailingLineForegroundColor": "untested",
-// Specifies the overview ruler color of the associated line highlights in blame annotations
-"gitlens.lineHighlightOverviewRulerColor": "untested"
 ```
 
 ## Contributing

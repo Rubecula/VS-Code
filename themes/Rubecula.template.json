@@ -656,9 +656,9 @@
         // Specifies the foreground color of the trailing blame annotation
         "gitlens.trailingLineForegroundColor": "untested",
         // Specifies the background color of the associated line highlights in blame annotations
-        "gitlens.lineHighlightBackgroundColor": "yellow30",
+        "gitlens.lineHighlightBackgroundColor": "purple30",
         // Specifies the overview ruler color of the associated line highlights in blame annotations
-        "gitlens.lineHighlightOverviewRulerColor": "untested"
+        "gitlens.lineHighlightOverviewRulerColor": "purple80"
     },
     "tokenColors": [
         {
