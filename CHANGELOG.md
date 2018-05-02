@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.4] - 2018-05-03
+
+### Added
+- Editor errors, warnings, information, and hints in the sidebar now have the proper colors.
+
+### Changed
+- Editor errors, warnings, information, and hints no longer have a double underline.
+
 ## [1.0.3] - 2018-05-01
 
 ### Added

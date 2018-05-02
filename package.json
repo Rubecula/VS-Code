@@ -1,6 +1,6 @@
 {
     "name": "rubecula",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "andreasbackx",
     "engines": {
         "vscode": "^1.22.0"

@@ -336,21 +336,21 @@
         "editorOverviewRuler.infoForeground": "cyan80",
 
         // Foreground color of error squiggles in the editor.
-        // "editorError.foreground": "inherited",
+        "editorError.foreground": "pink",
         // Border color of error squiggles in the editor.
-        "editorError.border": "pink",
+        "editorError.border": "transparent",
         // Foreground color of warning squiggles in the editor.
-        // "editorWarning.foreground": "inherited",
+        "editorWarning.foreground": "orange",
         // Border color of warning squiggles in the editor.
-        "editorWarning.border": "orange",
+        "editorWarning.border": "transparent",
         // Foreground color of info squiggles in the editor.
-        // "editorInfo.foreground": "inherited",
+        "editorInfo.foreground": "foreground",
         // Border color of info squiggles in the editor.
-        "editorInfo.border": "foreground",
+        "editorInfo.border": "transparent",
         // Foreground color of hints in the editor.
-        // "editorHint.foreground": "inherited",
+        "editorHint.foreground": "cyan",
         // Border color of hints in the editor.
-        "editorHint.border": "cyan",
+        "editorHint.border": "transparent",
 
         // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
         "editorGutter.background": "background",
