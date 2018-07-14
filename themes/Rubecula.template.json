@@ -148,6 +148,8 @@
         // "list.inactiveFocusBackground": "inherited",
         // List/Tree foreground color for invalid items, for example an unresolved root in explorer.
         "list.invalidItemForeground": "pink",
+        "list.errorForeground": "pink",
+        "list.warningForeground": "orange",
 
         //
         // Activity Bar
