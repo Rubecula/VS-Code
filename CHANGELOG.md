@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 - Added activity bar theming.
+- Added breadcrumb theming.
 
 ## [1.0.4] - 2018-05-03
 

@@ -20,6 +20,17 @@
         "badge.background": "highlightBackground",
 
         //
+        // Breadcrumb
+        //
+        // Breadcumb when clicked on foreground.
+        "breadcrumb.activeSelectionForeground": "brightForeground",
+        "breadcrumb.background": "background",
+        // Breadcrumb hover.
+        "breadcrumb.focusForeground": "foreground",
+        "breadcrumb.foreground": "inactiveForeground",
+        "breadcrumbPicker.background": "background",
+
+        //
         // Contrast Colors
         //
         // An extra border around active elements to separate them from others for greater contrast.
