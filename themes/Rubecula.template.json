@@ -2,8 +2,22 @@
     "type": "dark",
     "colors": {
         //
-        // VS Code Color Customisations
+        // Activity Bar
         //
+        "activityBar.background": "background",
+        "activityBar.dropBackground": "yellow30",
+        "activityBar.foreground": "foreground",
+        "activityBar.inactiveForeground": "inactiveForeground",
+        "activityBarBadge.background": "foreground",
+        "activityBarBadge.foreground": "background",
+
+        //
+        // Badge
+        //
+        // Badge foreground color.
+        "badge.foreground": "foreground",
+        // Badge background color.
+        "badge.background": "highlightBackground",
 
         //
         // Contrast Colors
@@ -108,14 +122,6 @@
         "scrollbarSlider.hoverBackground": "foreground1c",
 
         //
-        // Badge
-        //
-        // Badge foreground color.
-        "badge.foreground": "foreground",
-        // Badge background color.
-        "badge.background": "highlightBackground",
-
-        //
         // Progress Bar
         //
         // Background color of the progress bar shown for long running operations.
@@ -150,22 +156,6 @@
         "list.invalidItemForeground": "pink",
         "list.errorForeground": "pink",
         "list.warningForeground": "orange",
-
-        //
-        // Activity Bar
-        //
-        // Activity Bar background color.
-        // "activityBar.background": "inherited",
-        // Drag and drop feedback color for the Activity Bar items.
-        // "activityBar.dropBackground": "inherited",
-        // Activity bar foreground color (for example used for the icons).
-        // "activityBar.foreground": "inherited",
-        // Activity Bar border color with the Side Bar.
-        // "activityBar.border": "inherited",
-        // Activity notification badge background color.
-        // "activityBarBadge.background": "inherited",
-        // Activity notification badge foreground color.
-        // "activityBarBadge.foreground": "inherited",
 
         //
         // Side Bar
@@ -665,8 +655,7 @@
     "tokenColors": [
         {
             "settings": {
-                "foreground": "foreground",
-                "background": "background"
+                "foreground": "foreground"
             }
         },
         {
@@ -823,7 +812,6 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "background": "pink",
                 "foreground": "lightGray"
             }
         },
@@ -831,7 +819,6 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "settings": {
-                "background": "purple",
                 "foreground": "lightGray"
             }
         },
@@ -1003,7 +990,6 @@
             "name": "Markdown: Separator",
             "scope": "meta.separator",
             "settings": {
-                "background": "lightBackground",
                 "foreground": "inactiveForeground"
             }
         },

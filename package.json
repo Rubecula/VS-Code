@@ -3,13 +3,20 @@
     "version": "1.0.4",
     "publisher": "andreasbackx",
     "engines": {
-        "vscode": "^1.22.0"
+        "vscode": "^1.30.0"
     },
     "license": "MIT",
     "displayName": "Rubecula",
     "description": "Hyperminimal theme based on AmCoder Bright.",
-    "categories": ["Themes"],
-    "keywords": ["monokai", "amcoder", "theme", "dark"],
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "monokai",
+        "amcoder",
+        "theme",
+        "dark"
+    ],
     "galleryBanner": {
         "color": "#1C1C1C",
         "theme": "dark"
