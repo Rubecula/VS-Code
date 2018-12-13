@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Breadcrumb.
 - Debug Exception Widget.
 - Settings.
+- Title bar.
 
 ## [1.0.4] - 2018-05-03
 

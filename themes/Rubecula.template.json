@@ -4,7 +4,7 @@
         //
         // Activity Bar
         //
-        "activityBar.background": "background",
+        "activityBar.background": "lightBackground",
         "activityBar.dropBackground": "yellow30",
         "activityBar.foreground": "foreground",
         "activityBar.inactiveForeground": "inactiveForeground",
@@ -543,18 +543,18 @@
         // "statusBarItem.prominentHoverBackground": "TODO",
 
         //
-        // Title Bar Colors (macOS)
+        // Title Bar Colors
         //
         // Title Bar background when the window is active.
-        // "titleBar.activeBackground": "TODO",
+        "titleBar.activeBackground": "lightBackground",
         // Title Bar foreground when the window is active.
-        // "titleBar.activeForeground": "TODO",
+        "titleBar.activeForeground": "foreground",
         // Title Bar background when the window is inactive.
-        // "titleBar.inactiveBackground": "TODO",
+        "titleBar.inactiveBackground": "darkBackground",
         // Title Bar foreground when the window is inactive.
-        // "titleBar.inactiveForeground": "TODO",
+        "titleBar.inactiveForeground": "inactiveForeground",
         // Title bar border color.
-        // "titleBar.border": "TODO",
+        "titleBar.border": "lightBackground",
 
         //
         // Notification Colors
