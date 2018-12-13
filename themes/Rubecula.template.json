@@ -557,6 +557,17 @@
         "titleBar.border": "lightBackground",
 
         //
+        // Menu items in title bar
+        //
+        "menu.background": "lightBackground",
+        "menu.foreground": "foreground",
+        "menu.selectionBackground": "yellow30",
+        "menu.selectionForeground": "foreground",
+        "menu.separatorBackground": "inactiveForeground",
+        "menubar.selectionBackground": "highlightBackground",
+        "menubar.selectionForeground": "foreground",
+
+        //
         // Notification Colors
         //
         // Notification Center border color.

@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Debug Exception Widget.
 - Settings.
 - Title bar.
+- Menu and menu bar.
 
 ## [1.0.4] - 2018-05-03
 
