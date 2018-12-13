@@ -49,12 +49,39 @@
         "debugExceptionWidget.border": "pink",
 
         //
+        // Debug toolbar
+        //
+        // Debug toolbar background color.
+        // "debugToolBar.background": "TODO",
+        // Debug toolbar border color.
+        // "debugToolBar.border": "TODO",
+
+        //
+        // Settings
+        //
+        "settings.checkboxBackground": "background",
+        "settings.checkboxBorder": "border",
+        "settings.checkboxForeground": "foreground",
+        "settings.dropdownBackground": "background",
+        "settings.dropdownBorder": "border",
+        "settings.dropdownForeground": "foreground",
+        "settings.dropdownListBorder": "border",
+        "settings.headerForeground": "brightForeground",
+        "settings.modifiedItemIndicator": "yellow",
+        "settings.numberInputBackground": "background",
+        "settings.numberInputBorder": "border",
+        "settings.numberInputForeground": "foreground",
+        "settings.textInputBackground": "background",
+        "settings.textInputBorder": "border",
+        "settings.textInputForeground": "foreground",
+
+        //
         // Contrast Colors
         //
         // An extra border around active elements to separate them from others for greater contrast.
-        // "contrastActiveBorder": "inherited",
+        // "contrastActiveBorder": "TODO",
         // An extra border around elements to separate them from others for greater contrast.
-        // "contrastBorder": "inherited",
+        // "contrastBorder": "TODO",
 
         //
         // Base Colors
@@ -64,13 +91,13 @@
         // Overall foreground color. This color is only used if not overridden by a component.
         "foreground": "foreground",
         // Shadow color of widgets such as Find/Replace inside the editor.
-        // "widget.shadow": "inherited",
+        // "widget.shadow": "TODO",
         // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
         "selection.background": "yellow",
         // Foreground color for description text providing additional information, for example for a label.
-        // "descriptionForeground": "inherited",
+        "descriptionForeground": "inactiveForeground",
         // Overall foreground color for error messages (this color is only used if not overridden by a component).
-        // "errorForeground": "inherited",
+        "errorForeground": "pink",
 
         //
         // Text Colors
@@ -114,7 +141,7 @@
         // Input box foreground color for placeholder text.
         "input.placeholderForeground": "inactiveForeground",
         // Border color of activated options in input fields.
-        // "inputOption.activeBorder": "inherited",
+        // "inputOption.activeBorder": "TODO",
         // Input validation background color for error severity.
         "inputValidation.errorBackground": "background",
         // Input validation border color for error severity.
@@ -132,7 +159,7 @@
         // Scroll Bar Control
         //
         // Scroll Bar shadow to indicate that the view is scrolled.
-        // "scrollbar.shadow": "inherited",
+        // "scrollbar.shadow": "TODO",
         // Slider background color when active.
         "scrollbarSlider.activeBackground": "foreground38",
         // Slider background color.
@@ -164,13 +191,13 @@
         // List/Tree background when hovering over items using the mouse.
         "list.hoverBackground": "highlightBackground80",
         // List/Tree foreground when hovering over items using the mouse.
-        // "list.hoverForeground": "inherited",
+        // "list.hoverForeground": "TODO",
         // List/Tree background color for the selected item when the list/tree is inactive.
         "list.inactiveSelectionBackground": "yellow20",
         // List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
-        // "list.inactiveSelectionForeground": "inherited",
+        // "list.inactiveSelectionForeground": "TODO",
         // List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
-        // "list.inactiveFocusBackground": "inherited",
+        // "list.inactiveFocusBackground": "TODO",
         // List/Tree foreground color for invalid items, for example an unresolved root in explorer.
         "list.invalidItemForeground": "pink",
         "list.errorForeground": "pink",
@@ -182,17 +209,17 @@
         // Side Bar background color.
         "sideBar.background": "darkBackground",
         // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
-        // "sideBar.foreground": "inherited",
+        // "sideBar.foreground": "TODO",
         // Side Bar border color on the side separating the editor.
-        // "sideBar.border": "inherited",
+        // "sideBar.border": "TODO",
         // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through. The side bar is the container for views like explorer and search.
-        // "sideBar.dropBackground": "inherited",
+        // "sideBar.dropBackground": "TODO",
         // Side Bar title foreground color.
-        // "sideBarTitle.foreground": "inherited",
+        // "sideBarTitle.foreground": "TODO",
         // Side Bar section header background color.
         "sideBarSectionHeader.background": "lightBackground",
         // Side Bar section header foreground color.
-        // "sideBarSectionHeader.foreground": "inherited",
+        // "sideBarSectionHeader.foreground": "TODO",
 
         //
         // Editor Groups & Tabs
@@ -200,43 +227,43 @@
         // Background color of an editor group. The background color shows up when dragging editor groups around.
         "editorGroup.background": "background",
         // Color to separate multiple editor groups from each other.
-        // "editorGroup.border": "inherited",
+        // "editorGroup.border": "TODO",
         // Background color when dragging editors around.
-        // "editorGroup.dropBackground": "inherited",
+        // "editorGroup.dropBackground": "TODO",
 
         // Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": false).
-        // "editorGroupHeader.noTabsBackground": "inherited",
+        // "editorGroupHeader.noTabsBackground": "TODO",
         // Background color of the Tabs container.
         "editorGroupHeader.tabsBackground": "lightBackground",
         // Border color of the editor group title header when tabs are enabled.
-        // "editorGroupHeader.tabsBorder": "inherited",
+        // "editorGroupHeader.tabsBorder": "TODO",
 
         // Active Tab background color.
         "tab.activeBackground": "background",
         // Active Tab foreground color in an active group.
-        // "tab.activeForeground": "inherited",
+        // "tab.activeForeground": "TODO",
         // Border to separate Tabs from each other.
-        // "tab.border": "inherited",
+        // "tab.border": "TODO",
         // Bottom border for the active tab.
-        // "tab.activeBorder": "inherited",
+        // "tab.activeBorder": "TODO",
         // Bottom border for the active tab in an inactive editor group.
-        // "tab.unfocusedActiveBorder": "inherited",
+        // "tab.unfocusedActiveBorder": "TODO",
         // Inactive Tab background color.
         "tab.inactiveBackground": "lightBackground",
         // Inactive Tab foreground color in an active group.
         "tab.inactiveForeground": "inactiveForeground",
         // Active tab foreground color in an inactive editor group.
-        // "tab.unfocusedActiveForeground": "inherited",
+        // "tab.unfocusedActiveForeground": "TODO",
         // Inactive tab foreground color in an inactive editor group.
-        // "tab.unfocusedInactiveForeground": "inherited",
+        // "tab.unfocusedInactiveForeground": "TODO",
         // Tab background color when hovering
         "tab.hoverBackground": "background",
         // Tab background color in an unfocused group when hovering
-        // "tab.unfocusedHoverBackground": "inherited",
+        // "tab.unfocusedHoverBackground": "TODO",
         // Border to highlight tabs when hovering
-        // "tab.hoverBorder": "inherited",
+        // "tab.hoverBorder": "TODO",
         // Border to highlight tabs in an unfocused group when hovering
-        // "tab.unfocusedHoverBorder": "inherited",
+        // "tab.unfocusedHoverBorder": "TODO",
 
         //
         // Editor Colors
@@ -248,11 +275,11 @@
         // Color of editor line numbers.
         "editorLineNumber.foreground": "inactiveForeground",
         // Color of the active editor line number.
-        // "editorLineNumber.activeForeground": "inherited",
+        // "editorLineNumber.activeForeground": "TODO",
         // The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
-        // "editorCursor.background": "inherited",
+        // "editorCursor.background": "TODO",
         // Color of the editor cursor.
-        // "editorCursor.foreground": "inherited",
+        // "editorCursor.foreground": "TODO",
 
         // Color of the editor selection.
         "editor.selectionBackground": "yellow40",
@@ -266,13 +293,13 @@
         "editor.selectionHighlightBorder": "yellow",
 
         // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque to not hide underlying decorations.
-        // "editor.wordHighlightBackground": "inherited",
+        // "editor.wordHighlightBackground": "TODO",
         // Border color of a symbol during read-access, for example when reading a variable.
-        // "editor.wordHighlightBorder": "inherited",
+        // "editor.wordHighlightBorder": "TODO",
         // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque to not hide underlying decorations.
-        // "editor.wordHighlightStrongBackground": "inherited",
+        // "editor.wordHighlightStrongBackground": "TODO",
         // Border color of a symbol during write-access, for example when writing to a variable.
-        // "editor.wordHighlightStrongBorder": "inherited",
+        // "editor.wordHighlightStrongBorder": "TODO",
 
         //
         // Color of the current search match.
@@ -280,13 +307,13 @@
         // Color of the other search matches. The color must not be opaque to not hide underlying decorations.
         "editor.findMatchHighlightBackground": "yellow40",
         // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-        // "editor.findRangeHighlightBackground": "inherited",
+        // "editor.findRangeHighlightBackground": "TODO",
         // Border color of the current search match.
-        // "editor.findMatchBorder": "inherited",
+        // "editor.findMatchBorder": "TODO",
         // Border color of the other search matches.
-        // "editor.findMatchHighlightBorder": "inherited",
+        // "editor.findMatchHighlightBorder": "TODO",
         // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
-        // "editor.findRangeHighlightBorder": "inherited",
+        // "editor.findRangeHighlightBorder": "TODO",
 
         // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations.
         "editor.hoverHighlightBackground": "transparent",
@@ -300,33 +327,33 @@
         "editorLink.activeForeground": "cyan",
 
         // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
-        // "editor.rangeHighlightBackground": "inherited",
+        // "editor.rangeHighlightBackground": "TODO",
         // Background color of the border around highlighted ranges.
-        // "editor.rangeHighlightBorder": "inherited",
+        // "editor.rangeHighlightBorder": "TODO",
 
         // Color of whitespace characters in the editor.
-        // "editorWhitespace.foreground": "inherited",
+        // "editorWhitespace.foreground": "TODO",
 
         // Color of the editor indentation guides.
-        // "editorIndentGuide.background": "inherited",
+        // "editorIndentGuide.background": "TODO",
 
         // Color of the editor rulers.
-        // "editorRuler.foreground": "inherited",
+        // "editorRuler.foreground": "TODO",
 
         // Foreground color of an editor CodeLens.
-        // "editorCodeLens.foreground": "inherited",
+        // "editorCodeLens.foreground": "TODO",
 
         // Background color behind matching brackets.
-        // "editorBracketMatch.background": "inherited",
+        // "editorBracketMatch.background": "TODO",
         // Color for matching brackets boxes.
-        // "editorBracketMatch.border": "inherited",
+        // "editorBracketMatch.border": "TODO",
 
         // Color of the overview ruler border.
         "editorOverviewRuler.border": "border",
         // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
-        // "editorOverviewRuler.findMatchForeground": "inherited",
+        // "editorOverviewRuler.findMatchForeground": "TODO",
         // Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
-        // "editorOverviewRuler.rangeHighlightForeground": "inherited",
+        // "editorOverviewRuler.rangeHighlightForeground": "TODO",
         // Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
         "editorOverviewRuler.selectionHighlightForeground": "yellow80",
         // Overview ruler marker color for symbol highlights. The color must not be opaque to not hide underlying decorations.
@@ -376,13 +403,13 @@
         // Diff Editor Colors
         //
         // Background color for text that got inserted. The color must not be opaque to not hide underlying decorations.
-        // "diffEditor.insertedTextBackground": "inherited",
+        // "diffEditor.insertedTextBackground": "TODO",
         // Outline color for the text that got inserted.
-        // "diffEditor.insertedTextBorder": "inherited",
+        // "diffEditor.insertedTextBorder": "TODO",
         // Background color for text that got removed. The color must not be opaque to not hide underlying decorations.
-        // "diffEditor.removedTextBackground": "inherited",
+        // "diffEditor.removedTextBackground": "TODO",
         // Outline color for text that got removed.
-        // "diffEditor.removedTextBorder": "inherited",
+        // "diffEditor.removedTextBorder": "TODO",
 
         //
         // Editor Widget Colors
@@ -392,9 +419,9 @@
         // Border color of the editor widget unless the widget does not contain a border or defines its own border color.
         "editorWidget.border": "border",
         // Background color of the suggestion widget.
-        // "editorSuggestWidget.background": "inherited",
+        // "editorSuggestWidget.background": "TODO",
         // Border color of the suggestion widget.
-        // "editorSuggestWidget.border": "inherited",
+        // "editorSuggestWidget.border": "TODO",
         // Foreground color of the suggestion widget.
         "editorSuggestWidget.foreground": "foreground",
         // Color of the match highlights in the suggestion widget.
@@ -402,18 +429,18 @@
         // Background color of the selected entry in the suggestion widget.
         "editorSuggestWidget.selectedBackground": "yellow30",
         // Background color of the editor hover.
-        // "editorHoverWidget.background": "inherited",
+        // "editorHoverWidget.background": "TODO",
         // Border color of the editor hover.
-        // "editorHoverWidget.border": "inherited",
+        // "editorHoverWidget.border": "TODO",
 
         // Editor marker navigation widget background.
-        // "editorMarkerNavigation.background": "inherited",
+        // "editorMarkerNavigation.background": "TODO",
         // Editor marker navigation widget error color.
-        // "editorMarkerNavigationError.background": "inherited",
+        // "editorMarkerNavigationError.background": "TODO",
         // Editor marker navigation widget warning color.
-        // "editorMarkerNavigationWarning.background": "inherited",
+        // "editorMarkerNavigationWarning.background": "TODO",
         // Editor marker navigation widget info color.
-        // "editorMarkerNavigationInfo.background": "inherited",
+        // "editorMarkerNavigationInfo.background": "TODO",
 
         //
         // Peek View Colors
@@ -429,7 +456,7 @@
         // Background color of the peek view result list.
         "peekViewResult.background": "background",
         // Foreground color for file nodes in the peek view result list.
-        // "peekViewResult.fileForeground": "inherited",
+        // "peekViewResult.fileForeground": "TODO",
         // Foreground color for line nodes in the peek view result list.
         "peekViewResult.lineForeground": "foreground",
         // Match highlight color in the peek view result list.
@@ -457,33 +484,33 @@
         // Incoming content background in inline merge conflicts. The color must not be opaque to not hide underlying decorations.
         "merge.incomingContentBackground": "cyan40",
         // Border color on headers and the splitter in inline merge conflicts.
-        // "merge.border": "inherited",
+        // "merge.border": "TODO",
         // Common ancestor content background in inline merge-conflicts. The color must not be opaque to not hide underlying decorations.
-        // "merge.commonContentBackground": "inherited",
+        // "merge.commonContentBackground": "TODO",
         // Common ancestor header background in inline merge-conflicts. The color must not be opaque to not hide underlying decorations.
-        // "merge.commonHeaderBackground": "inherited",
+        // "merge.commonHeaderBackground": "TODO",
         // Current overview ruler foreground for inline merge conflicts.
-        // "editorOverviewRuler.currentContentForeground": "inherited",
+        // "editorOverviewRuler.currentContentForeground": "TODO",
         // Incoming overview ruler foreground for inline merge conflicts.
-        // "editorOverviewRuler.incomingContentForeground": "inherited",
+        // "editorOverviewRuler.incomingContentForeground": "TODO",
         // Common ancestor overview ruler foreground for inline merge conflicts.
-        // "editorOverviewRuler.commonContentForeground": "inherited",
+        // "editorOverviewRuler.commonContentForeground": "TODO",
 
         //
         // Panel Colors
         //
         // Panel background color.
-        // "panel.background": "inherited",
+        // "panel.background": "TODO",
         // Panel border color to separate the panel from the editor.
-        // "panel.border": "inherited",
+        // "panel.border": "TODO",
         // Drag and drop feedback color for the panel title items. The color should have transparency so that the panel entries can still shine through.
-        // "panel.dropBackground": "inherited",
+        // "panel.dropBackground": "TODO",
         // Border color for the active panel title.
-        // "panelTitle.activeBorder": "inherited",
+        // "panelTitle.activeBorder": "TODO",
         // Title color for the active panel.
-        // "panelTitle.activeForeground": "inherited",
+        // "panelTitle.activeForeground": "TODO",
         // Title color for the inactive panel.
-        // "panelTitle.inactiveForeground": "inherited",
+        // "panelTitle.inactiveForeground": "TODO",
 
         //
         // Status Bar Colors
@@ -491,81 +518,81 @@
         // Standard Status Bar background color.
         "statusBar.background": "lightBackground",
         // Status Bar foreground color.
-        // "statusBar.foreground": "inherited",
+        // "statusBar.foreground": "TODO",
         // Status Bar border color separating the Status Bar and editor.
         "statusBar.border": "lightBackground",
         // Status Bar background color when a program is being debugged.
-        // "statusBar.debuggingBackground": "inherited",
+        // "statusBar.debuggingBackground": "TODO",
         // Status Bar foreground color when a program is being debugged.
-        // "statusBar.debuggingForeground": "inherited",
+        // "statusBar.debuggingForeground": "TODO",
         // Status Bar border color separating the Status Bar and editor when a program is being debugged.
-        // "statusBar.debuggingBorder": "inherited",
+        // "statusBar.debuggingBorder": "TODO",
         // Status Bar foreground color when no folder is opened.
-        // "statusBar.noFolderForeground": "inherited",
+        // "statusBar.noFolderForeground": "TODO",
         // Status Bar background color when no folder is opened.
-        // "statusBar.noFolderBackground": "inherited",
+        // "statusBar.noFolderBackground": "TODO",
         // Status Bar border color separating the Status Bar and editor when no folder is opened.
-        // "statusBar.noFolderBorder": "inherited",
+        // "statusBar.noFolderBorder": "TODO",
         // Status Bar item background color when clicking.
         "statusBarItem.activeBackground": "gray",
         // Status Bar item background color when hovering.
         "statusBarItem.hoverBackground": "highlightBackground",
         // Status Bar prominent items background color. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
-        // "statusBarItem.prominentBackground": "inherited",
+        // "statusBarItem.prominentBackground": "TODO",
         // Status Bar prominent items background color when hovering. Prominent items stand out from other Status Bar entries to indicate importance. Change mode Toggle Tab Key Moves Focus from command palette to see an example.
-        // "statusBarItem.prominentHoverBackground": "inherited",
+        // "statusBarItem.prominentHoverBackground": "TODO",
 
         //
         // Title Bar Colors (macOS)
         //
         // Title Bar background when the window is active.
-        // "titleBar.activeBackground": "inherited",
+        // "titleBar.activeBackground": "TODO",
         // Title Bar foreground when the window is active.
-        // "titleBar.activeForeground": "inherited",
+        // "titleBar.activeForeground": "TODO",
         // Title Bar background when the window is inactive.
-        // "titleBar.inactiveBackground": "inherited",
+        // "titleBar.inactiveBackground": "TODO",
         // Title Bar foreground when the window is inactive.
-        // "titleBar.inactiveForeground": "inherited",
+        // "titleBar.inactiveForeground": "TODO",
         // Title bar border color.
-        // "titleBar.border": "inherited",
+        // "titleBar.border": "TODO",
 
         //
         // Notification Colors
         //
         // Notification Center border color.
-        // "notificationCenter.border": "inherited",
+        // "notificationCenter.border": "TODO",
         // Notification Center header foreground color.
-        // "notificationCenterHeader.foreground": "inherited",
+        // "notificationCenterHeader.foreground": "TODO",
         // Notification Center header background color.
         "notificationCenterHeader.background": "highlightBackground",
         // Notification toast border color.
-        // "notificationToast.border": "inherited",
+        // "notificationToast.border": "TODO",
         // Notification foreground color.
         "notifications.foreground": "foreground",
         // Notification background color.
         "notifications.background": "lightBackground",
         // Notification border color separating from other notifications in the Notification Center.
-        // "notifications.border": "inherited",
+        // "notifications.border": "TODO",
         // Notification links foreground color.
-        // "notificationLink.foreground": "inherited",
+        // "notificationLink.foreground": "TODO",
 
         //
         // Extensions
         //
         // Extension view button foreground color (for example Install button).
-        // "extensionButton.prominentForeground": "inherited",
+        // "extensionButton.prominentForeground": "TODO",
         // Extension view button background color.
-        // "extensionButton.prominentBackground": "inherited",
+        // "extensionButton.prominentBackground": "TODO",
         // Extension view button background hover color.
-        // "extensionButton.prominentHoverBackground": "inherited",
+        // "extensionButton.prominentHoverBackground": "TODO",
 
         //
         // Quick Picker
         //
         // Quick picker (Quick Open) color for grouping borders.
-        // "pickerGroup.border": "inherited",
+        // "pickerGroup.border": "TODO",
         // Quick picker (Quick Open) color for grouping labels.
-        // "pickerGroup.foreground": "inherited",
+        // "pickerGroup.foreground": "TODO",
 
         //
         // Integrated Terminal Colors
@@ -614,20 +641,14 @@
         "terminalCursor.foreground": "foreground",
 
         //
-        // Debug
-        //
-        // Debug toolbar background color.
-        // "debugToolBar.background": "inherited",
-
-        //
         // Welcome Page
         //
         // Background color for the buttons on the Welcome page.
-        // "welcomePage.buttonBackground": "inherited",
+        // "welcomePage.buttonBackground": "TODO",
         // Hover background color for the buttons on the Welcome page.
-        // "welcomePage.buttonHoverBackground": "inherited",
+        // "welcomePage.buttonHoverBackground": "TODO",
         // Background color for the embedded editors on the Interactive Playground.
-        // "walkThrough.embeddedEditorBackground": "inherited",
+        // "walkThrough.embeddedEditorBackground": "TODO",
 
         //
         // Git Colors
