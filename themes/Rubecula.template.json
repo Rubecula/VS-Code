@@ -31,6 +31,24 @@
         "breadcrumbPicker.background": "background",
 
         //
+        // Button Control
+        //
+        // Button background color.
+        "button.background": "background",
+        // Button foreground color.
+        "button.foreground": "foreground",
+        // Button background color when hovering.
+        "button.hoverBackground": "darkBackground",
+
+        //
+        // Debug Exception Widget
+        //
+        // Exception widget background color.
+        "debugExceptionWidget.background": "background",
+        // Exception widget border color.
+        "debugExceptionWidget.border": "pink",
+
+        //
         // Contrast Colors
         //
         // An extra border around active elements to separate them from others for greater contrast.
@@ -71,16 +89,6 @@
         "textPreformat.foreground": "foreground",
         // Color for text separators.
         "textSeparator.foreground": "foreground",
-
-        //
-        // Button Control
-        //
-        // Button background color.
-        "button.background": "background",
-        // Button foreground color.
-        "button.foreground": "foreground",
-        // Button background color when hovering.
-        "button.hoverBackground": "darkBackground",
 
         //
         // Dropdown Control
@@ -397,11 +405,6 @@
         // "editorHoverWidget.background": "inherited",
         // Border color of the editor hover.
         // "editorHoverWidget.border": "inherited",
-
-        // Exception widget background color.
-        // "debugExceptionWidget.background": "inherited",
-        // Exception widget border color.
-        // "debugExceptionWidget.border": "inherited",
 
         // Editor marker navigation widget background.
         // "editorMarkerNavigation.background": "inherited",
