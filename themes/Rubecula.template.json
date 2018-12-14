@@ -645,7 +645,7 @@
         // 'Yellow' ANSI color in the terminal.
         "terminal.ansiYellow": "yellow",
         // The selection background color of the terminal.
-        "terminal.selectionBackground": "highlightBackground40",
+        "terminal.selectionBackground": "yellow40",
         // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
         "terminalCursor.background": "darkBackground",
         // The foreground color of the terminal cursor.
