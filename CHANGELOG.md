@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [1.0.6] - 2019-01-23
+
+### Added
+- Git added and submodule resource colours.
+
+### Changed
+- Git untracked resource colour changed from green to cyan.
+
 ## [1.0.5] - 2018-12-14
+
+### Changed
+
 - Activity bar.
 - Breadcrumb.
 - Debug Exception Widget.

@@ -664,16 +664,20 @@
         //
         // Git Colors
         //
+        // Color for added Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.addedResourceForeground": "green",
         // Color for modified git resources. Used file labels and the SCM viewlet.
         "gitDecoration.modifiedResourceForeground": "yellow",
         // Color for deleted git resources. Used file labels and the SCM viewlet.
         "gitDecoration.deletedResourceForeground": "pink",
         // Color for untracked git resources. Used file labels and the SCM viewlet.
-        "gitDecoration.untrackedResourceForeground": "green",
+        "gitDecoration.untrackedResourceForeground": "cyan",
         // Color for ignored git resources. Used file labels and the SCM viewlet.
         "gitDecoration.ignoredResourceForeground": "inactiveForeground",
         // Color for conflicting git resources. Used file labels and the SCM viewlet.
         "gitDecoration.conflictingResourceForeground": "purple",
+        // Color for submodule resources.
+        "gitDecoration.submoduleResourceForeground": "foreground",
 
         //
         // VS Code Extensions Customisations
