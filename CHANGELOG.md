@@ -7,14 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Ruler color.
 
 ## [1.0.6] - 2019-01-23
 
 ### Added
-- Git added and submodule resource colours.
+- Git added and submodule resource colors.
 
 ### Changed
-- Git untracked resource colour changed from green to cyan.
+- Git untracked resource color changed from green to cyan.
 
 ## [1.0.5] - 2018-12-14
 

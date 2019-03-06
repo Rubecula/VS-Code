@@ -338,7 +338,7 @@
         // "editorIndentGuide.background": "TODO",
 
         // Color of the editor rulers.
-        // "editorRuler.foreground": "TODO",
+        "editorRuler.foreground": "lightBackground80",
 
         // Foreground color of an editor CodeLens.
         // "editorCodeLens.foreground": "TODO",
