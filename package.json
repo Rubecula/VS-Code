@@ -1,36 +1,48 @@
 {
-    "name": "rubecula",
-    "version": "1.0.7",
-    "publisher": "andreasbackx",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "license": "MIT",
-    "displayName": "Rubecula",
-    "description": "Hyperminimal theme based on AmCoder Bright.",
-    "categories": ["Themes"],
-    "keywords": ["monokai", "amcoder", "theme", "dark"],
-    "galleryBanner": {
-        "color": "#1C1C1C",
-        "theme": "dark"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Rubecula",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Rubecula.json"
-            }
-        ]
-    },
-    "markdown": "github",
-    "qna": "https://github.com/Rubecula/VS-Code/issues",
-    "scripts": {
-        "template": "node template.js"
-    },
-    "icon": "img/icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Rubecula/VS-Code"
-    }
+	"name": "rubecula",
+	"version": "1.0.8",
+	"publisher": "andreasbackx",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"license": "MIT",
+	"displayName": "Rubecula",
+	"description": "Hyperminimal theme based on AmCoder Bright.",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"monokai",
+		"amcoder",
+		"theme",
+		"dark"
+	],
+	"galleryBanner": {
+		"color": "#1C1C1C",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rubecula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Rubecula.json"
+			}
+		]
+	},
+	"markdown": "github",
+	"qna": "https://github.com/Rubecula/VS-Code/issues",
+	"scripts": {
+		"template": "node template.js"
+	},
+	"icon": "img/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Rubecula/VS-Code"
+	},
+	"__metadata": {
+		"id": "2d71c930-aa44-49e8-b646-74a85bd78dc5",
+		"publisherDisplayName": "Andreas Backx",
+		"publisherId": "c98148cd-81e5-4535-9f43-d0b40410360d"
+	}
 }

@@ -91,7 +91,7 @@
         // Overall foreground color. This color is only used if not overridden by a component.
         "foreground": "foreground",
         // Shadow color of widgets such as Find/Replace inside the editor.
-        // "widget.shadow": "TODO",
+        // "widget.shadow": "INHERIT",
         // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
         "selection.background": "yellow",
         // Foreground color for description text providing additional information, for example for a label.
@@ -307,13 +307,13 @@
         // Color of the other search matches. The color must not be opaque to not hide underlying decorations.
         "editor.findMatchHighlightBackground": "yellow40",
         // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-        // "editor.findRangeHighlightBackground": "TODO",
+        "editor.findRangeHighlightBackground": "yellow20",
         // Border color of the current search match.
-        // "editor.findMatchBorder": "TODO",
+        "editor.findMatchBorder": "transparent",
         // Border color of the other search matches.
-        // "editor.findMatchHighlightBorder": "TODO",
+        "editor.findMatchHighlightBorder": "transparent",
         // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
-        // "editor.findRangeHighlightBorder": "TODO",
+        "editor.findRangeHighlightBorder": "transparent",
 
         // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations.
         "editor.hoverHighlightBackground": "transparent",
@@ -344,14 +344,14 @@
         // "editorCodeLens.foreground": "TODO",
 
         // Background color behind matching brackets.
-        // "editorBracketMatch.background": "TODO",
+        "editorBracketMatch.background": "transparent",
         // Color for matching brackets boxes.
-        // "editorBracketMatch.border": "TODO",
+        "editorBracketMatch.border": "foreground",
 
         // Color of the overview ruler border.
         "editorOverviewRuler.border": "border",
         // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
-        // "editorOverviewRuler.findMatchForeground": "TODO",
+        "editorOverviewRuler.findMatchForeground": "yellow80",
         // Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
         // "editorOverviewRuler.rangeHighlightForeground": "TODO",
         // Overview ruler marker color for selection highlights. The color must not be opaque to not hide underlying decorations.
@@ -403,13 +403,13 @@
         // Diff Editor Colors
         //
         // Background color for text that got inserted. The color must not be opaque to not hide underlying decorations.
-        // "diffEditor.insertedTextBackground": "TODO",
+        "diffEditor.insertedTextBackground": "green30",
         // Outline color for the text that got inserted.
-        // "diffEditor.insertedTextBorder": "TODO",
+        "diffEditor.insertedTextBorder": "transparent",
         // Background color for text that got removed. The color must not be opaque to not hide underlying decorations.
-        // "diffEditor.removedTextBackground": "TODO",
+        "diffEditor.removedTextBackground": "pink30",
         // Outline color for text that got removed.
-        // "diffEditor.removedTextBorder": "TODO",
+        "diffEditor.removedTextBorder": "transparent",
 
         //
         // Editor Widget Colors
@@ -419,9 +419,9 @@
         // Border color of the editor widget unless the widget does not contain a border or defines its own border color.
         "editorWidget.border": "border",
         // Background color of the suggestion widget.
-        // "editorSuggestWidget.background": "TODO",
+        // "editorSuggestWidget.background": "INHERIT",
         // Border color of the suggestion widget.
-        // "editorSuggestWidget.border": "TODO",
+        // "editorSuggestWidget.border": "INHERIT",
         // Foreground color of the suggestion widget.
         "editorSuggestWidget.foreground": "foreground",
         // Color of the match highlights in the suggestion widget.
@@ -429,9 +429,9 @@
         // Background color of the selected entry in the suggestion widget.
         "editorSuggestWidget.selectedBackground": "yellow30",
         // Background color of the editor hover.
-        // "editorHoverWidget.background": "TODO",
+        // "editorHoverWidget.background": "INHERIT",
         // Border color of the editor hover.
-        // "editorHoverWidget.border": "TODO",
+        // "editorHoverWidget.border": "INHERIT",
 
         // Editor marker navigation widget background.
         // "editorMarkerNavigation.background": "TODO",
@@ -456,7 +456,7 @@
         // Background color of the peek view result list.
         "peekViewResult.background": "background",
         // Foreground color for file nodes in the peek view result list.
-        // "peekViewResult.fileForeground": "TODO",
+        // "peekViewResult.fileForeground": "INHERIT",
         // Foreground color for line nodes in the peek view result list.
         "peekViewResult.lineForeground": "foreground",
         // Match highlight color in the peek view result list.
