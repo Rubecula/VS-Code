@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2021-02-22
+
+### Added
+- Dawn/Light theme.
+- Debug colors.
+- Notification colors.
+
+### Changed
+- Streamlined selection/highlight colors.
+- Panel colors.
+
 ## [1.0.8] - 2019-08-11
 
 ### Added

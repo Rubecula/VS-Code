@@ -5,6 +5,7 @@
     "tasks": [
         {
             "type": "npm",
+            "label": "build",
             "script": "template",
             "group": {
                 "kind": "build",
