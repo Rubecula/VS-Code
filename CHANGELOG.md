@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.2] - 2021-03-10
+
+### Added
+- Find in file line hightlight.
+
+### Changed
+- Lowered VS Code version to ^1.50.0.
+
+## [2.0.1] - 2021-02-22
+
+Only used on VS Code Marketplace to make a new release to fix ignored files.
+
 ## [2.0.0] - 2021-02-22
 
 ### Added

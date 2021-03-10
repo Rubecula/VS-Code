@@ -323,9 +323,9 @@
         "editorLink.activeForeground": "cyan",
 
         // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque to not hide underlying decorations.
-        // "editor.rangeHighlightBackground": "INHERIT",
+        "editor.rangeHighlightBackground": "selectionBackground",
         // Background color of the border around highlighted ranges.
-        // "editor.rangeHighlightBorder": "INHERIT",
+        // "editor.rangeHighlightBorder": "NONE",
 
         // Color of whitespace characters in the editor.
         // "editorWhitespace.foreground": "INHERIT",

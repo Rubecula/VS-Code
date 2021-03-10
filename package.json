@@ -2,11 +2,11 @@
     "name": "rubecula",
     "displayName": "Rubecula",
     "description": "Hyperminimal theme based on AmCoder Bright.",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "publisher": "andreasbackx",
     "license": "MIT",
     "engines": {
-        "vscode": "^1.53.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Themes"
@@ -15,7 +15,10 @@
         "monokai",
         "amcoder",
         "theme",
-        "dark"
+        "dark",
+        "light",
+        "dawn",
+        "dusk"
     ],
     "galleryBanner": {
         "color": "#1C1C1C",
