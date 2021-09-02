@@ -303,13 +303,14 @@
         // Color of the other search matches. The color must not be opaque to not hide underlying decorations.
         "editor.findMatchHighlightBackground": "inactiveSelectionBackground",
         // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-        "editor.findRangeHighlightBackground": "transparent",
+        "editor.findRangeHighlightBackground": "inactiveBackground",
         // Border color of the current search match.
         "editor.findMatchBorder": "transparent",
         // Border color of the other search matches.
         "editor.findMatchHighlightBorder": "transparent",
         // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
-        "editor.findRangeHighlightBorder": "transparent",
+        // Setting this to transparent will cause overlapping of borders: https://github.com/microsoft/vscode-docs/issues/2264#issuecomment-445363064
+        // "editor.findRangeHighlightBorder": "NONE",
 
         // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations.
         "editor.hoverHighlightBackground": "transparent",

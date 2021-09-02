@@ -38,7 +38,8 @@ const dawn = {
     highlightBackground: "black15",
     activeBackground: "black25",
     selectionBackground: "yellow40",
-    inactiveSelectionBackground: "yellow20",
+    inactiveSelectionBackground: "yellow30",
+    inactiveBackground: "yellow20",
 
     border: "lightGray",
 
@@ -68,6 +69,7 @@ const dusk = {
     activeBackground: "white40",
     selectionBackground: "yellow40",
     inactiveSelectionBackground: "yellow20",
+    inactiveBackground: "yellow10",
 
     border: "darkGray",
 
