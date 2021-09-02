@@ -618,11 +618,11 @@
         // The default foreground color of the Integrated Terminal.
         "terminal.foreground": "foreground",
         // 'Black' ANSI color in the terminal.
-        "terminal.ansiBlack": "background",
+        "terminal.ansiBlack": "inactiveForeground",
         // 'Blue' ANSI color in the terminal.
         "terminal.ansiBlue": "cyan",
         // 'BrightBlack' ANSI color in the terminal.
-        "terminal.ansiBrightBlack": "background",
+        "terminal.ansiBrightBlack": "inactiveForeground",
         // 'BrightBlue' ANSI color in the terminal.
         "terminal.ansiBrightBlue": "cyan",
         // 'BrightCyan' ANSI color in the terminal.
