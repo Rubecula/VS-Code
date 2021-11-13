@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.5] - 2021-11-13
+
+### Changed
+- Title bar background color matches that of the tabs.
+
 ## [2.0.4] - 2021-09-03
 
 ### Added
@@ -14,12 +19,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Rubecula Dawn: darkened inactive selection color slightly.
-- Terminal (bright) black colors changed to use the inactive foreground colours to distinguish them from the background.
+- Terminal (bright) black colors changed to use the inactive foreground colors to distinguish them from the background.
 
 ## [2.0.3] - 2021-03-11
 
 ### Changed
-- Fixed some colours not fit for Rubecula Dawn.
+- Fixed some colors not fit for Rubecula Dawn.
 - Updated README.
 
 ## [2.0.2] - 2021-03-10
