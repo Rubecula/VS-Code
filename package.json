@@ -2,7 +2,7 @@
     "name": "rubecula",
     "displayName": "Rubecula",
     "description": "Hyperminimal theme based on AmCoder Bright.",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "publisher": "andreasbackx",
     "license": "MIT",
     "engines": {
@@ -43,7 +43,7 @@
     "scripts": {
         "template": "node template.js"
     },
-    "icon": "img/icon.png",
+    "icon": "img/icon.jpg",
     "repository": {
         "type": "git",
         "url": "https://github.com/Rubecula/VS-Code"
