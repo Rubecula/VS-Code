@@ -340,6 +340,13 @@
         // Foreground color of an editor CodeLens.
         // "editorCodeLens.foreground": "INHERIT",
 
+        // Lightbulb
+
+        // The color used for the lightbulb actions icon.
+        "editorLightBulb.foreground": "orange",
+        //The color used for the lightbulb auto fix actions icon.
+        "editorLightBulbAutoFix.foreground": "lightOrange",
+
         // Background color behind matching brackets.
         "editorBracketMatch.background": "transparent",
         // Color for matching brackets boxes.

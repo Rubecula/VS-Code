@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Added
-- Editor bracket highlighting colors added.
+- Editor bracket highlighting colors.
+- Lightbulb colors.
 
 ## [2.0.5] - 2021-11-13
 
