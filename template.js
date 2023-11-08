@@ -18,14 +18,27 @@ const colors = {
     white: "#E5E5E5",
     realwhite: "#FFFFFF",
 
-    yellow: "#CCC47A",
-    pink: "#E52E71",
-    green: "#9CCC3D",
-    cyan: "#6CC7D9",
-    orange: "#D9882B",
-    purple: "#A082D9",
+    blue: "#5caeef",
+    lightBlue: "#ABB2C0",
 
-    transparent: "#ffffff00",
+    yellow: "#CCC47A",
+
+    pink: "#E52E71",
+    lightPink: "#DB6165",
+
+    green: "#9CCC3D",
+    lightGreen: "#97C26C",
+
+    cyan: "#6CC7D9",
+    lightCyan: "#4FB1BC",
+
+    orange: "#D9882B",
+    lightOrange: "#DFB976",
+
+    purple: "#A082D9",
+    lightPurple: "#C172D9",
+
+    transparent: "#FFFFFF00",
 };
 
 const dawn = {
@@ -50,12 +63,12 @@ const dawn = {
 
     ...colors,
 
-    yellow: "#7e7630",
+    yellow: "#7E7630",
     // pink: "",
     green: "#618122",
-    cyan: "#24798a",
+    cyan: "#24798A",
     // orange: "",
-    purple: "#673abb",
+    purple: "#673ABB",
 };
 
 const dusk = {
@@ -103,7 +116,7 @@ function resolveColor(key, value) {
     }
 
     let resolvedColor = resolveColor(value, colors[colorName]);
-    if(opacity === undefined) {
+    if (opacity === undefined) {
         return resolvedColor;
     }
     if (colorName in colors) {
@@ -113,8 +126,8 @@ function resolveColor(key, value) {
 }
 
 const themeTemplates = {
-    "Rubecula": dusk,
-    "Rubecula Dawn": dawn
+    Rubecula: dusk,
+    "Rubecula Dawn": dawn,
 };
 
 // Generate a sed replacement command that will replace the colors in the

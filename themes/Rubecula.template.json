@@ -345,6 +345,15 @@
         // Color for matching brackets boxes.
         "editorBracketMatch.border": "foreground",
 
+        // Bracket pair colorization:
+        "editorBracketHighlight.foreground1": "blue",
+        "editorBracketHighlight.foreground2": "lightOrange",
+        "editorBracketHighlight.foreground3": "lightPurple",
+        "editorBracketHighlight.foreground4": "lightCyan",
+        "editorBracketHighlight.foreground5": "lightGreen",
+        "editorBracketHighlight.foreground6": "lightBlue",
+        "editorBracketHighlight.unexpectedBracket.foreground": "lightPink",
+
         // Color of the overview ruler border.
         "editorOverviewRuler.border": "border",
         // Overview ruler marker color for find matches. The color must not be opaque to not hide underlying decorations.
