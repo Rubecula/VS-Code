@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.8] - 2023-11-09
+
+### Fixed
+- The published 2.0.7 version on VS Code Marketplace included incorrect colours different from master due to an error.
+
 ## [2.0.7] - 2023-11-08
 
 ### Added
